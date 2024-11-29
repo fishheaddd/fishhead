@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const message = document.getElementById('registermessage');
 
         if (password !== confirmPassword) {
-            message.textContent = 'PLEASE INPUT AGAIN.';
+            message.textContent = 'ERROR. PLEASE INPUT AGAIN.';
             message.style.color = 'rgb(255, 255, 255)';
             message.style.background = '#fc0d7d';
             return;
@@ -40,13 +40,14 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('username', username);
         localStorage.setItem('password', password);
         message.textContent = 'SUCCESSFUL';
-        message.style.color = '#d1b500';
-        message.style.background = '#002324';
+        message.style.color = '#ffdc00';
         message.style.fontWeight = '700'; 
+        message.style.fontSize = '20px';
+        message.style.background = 'transparent';
 
         setTimeout(() => {
             window.location.href = 'index.html';
-        }, 2000);
+        }, 1000);
     };
 
 
