@@ -1,11 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-
-
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", "sans-serif";
+    font-family: "Pixelify Sans", "sans-serif";
 }
 
 body {
@@ -20,8 +18,10 @@ body {
   
 
 .wrapper {
+    position : fixed;
     width: 420px;
-    background: transparent;
+    background: rgb(0,59,54);
+    background: linear-gradient(0deg, rgba(0,59,54,1) 0%, rgba(16,156,150,1) 100%);
     border: 2px solid rgba(255,255,255,.2);
     backdrop-filter: blur(20px);
     color: #fff;
@@ -64,27 +64,6 @@ body {
     top: 68%;
     transform: translateY(-50%);
     font-size: 20px;
-}
-
-.wrapper .remember-forgot {
-    display: flex;
-    justify-content: space-between;
-    font-size: 14.5px;
-    margin: 15px 0 15px;
-}
-
-.remember-forgot label input{
-    accent-color: #fff;
-    margin-right: 3px;
-}
-
-.remember-forgot a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.remember-forgot a:hover {
-    text-decoration: underline;
 }
 
 .wrapper .btn {
