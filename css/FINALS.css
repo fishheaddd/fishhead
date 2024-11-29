@@ -126,3 +126,7 @@ body {
     transform: translateX(10.5%);
     font-weight: 700;
   }
+
+.note{
+    text-align: center;
+}
