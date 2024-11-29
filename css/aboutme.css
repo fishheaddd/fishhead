@@ -1,0 +1,249 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+    background-color: #024c59 !important;
+    background-size:cover;
+    background-position: center;
+    padding-top: 90px;
+}
+
+nav {
+    background-color: #024c59;
+    display: flex; /* Ensure flex layout is applied to the navbar */
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Space between brand and nav items */
+    padding: 10px 20px; /* Add some padding for spacing */
+}
+
+div.container{
+    width: 70%;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: rgb(255, 136, 0);
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex; /* Make the list items inline */
+    margin-left: auto; /* Push nav items to the right */
+    padding: 0;
+}
+
+.navbar-nav li {
+    margin-left: 20px; /* Space between nav items */
+}
+
+.navbar-nav li a {
+    color: rgb(255, 136, 0) !important;
+    font-size: 22px !important;
+    font-weight: 900 !important;
+    text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.navbar-nav li a:hover {
+    color: rgb(255, 255, 255) !important; 
+    text-shadow: 0 0 10px rgb(255, 136, 0), 0 0 20px rgb(255, 136, 0);
+    transform: translateY(-10px);
+}
+
+
+.color-bg{
+    background-color: rgb(15, 37, 39)
+}
+
+
+.skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skillset {
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.skills .box .percent {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #d6cfcf;
+}
+
+.skills .box .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(53, 152, 147)
+}
+
+body {
+    
+    display: block;
+    overflow-x: hidden;
+   
+}
+
+nav {
+    background-color: #024c59;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.namecolor{
+    color: rgb(255, 136, 0);
+}
+
+.navbar-brand {
+    font-size: 24px !important; 
+    text-transform: uppercase;
+    font-weight: 900;
+    color:#024c59;
+}
+
+ul .ml-auto{
+    margin-left: auto!important;
+}
+
+nav ul li a {
+    color: rgb(255, 136, 0) !important;
+    font-size: 22px !important;
+    font-weight: 900 !important;
+    margin: auto 10px;
+    transition-property: transform ;
+    transition-duration:0.3s ;
+    transition-timing-function: ease ;
+    transition-delay: 0s;
+    display: block; 
+    margin-left: 40px auto !important;
+    
+}
+
+a.nav-link:hover{
+    color: rgb(255, 255, 255)!important; 
+    text-shadow: 0 0 10px rgb(255, 136, 0), 0 0 20px rgb(255, 136, 0);
+    transform: translateY(-10px);
+
+}
+
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #061722;
+    
+}
+
+section h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: rgb(255, 136, 0);
+    text-align: left;
+    margin-bottom: 20px;
+    text-shadow: 11px 7px 16px rgb(129, 103, 72);
+}
+
+section p{
+    font-size:16px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+
+button.btn {
+    max-width: 50%;
+    border-radius: 50px !important;
+    box-shadow: 11px 7px 16px rgb(129, 103, 72);
+    background-color:  rgb(255, 136, 0);
+    color: rgb(39, 38, 38);
+    transition-property: transform ;
+    transition-duration:0.3s ;
+    transition-timing-function: ease ;
+    transition-delay: 0s;
+}
+
+.btn:hover{
+    transform: translateY(-10px);
+}
+
+
+
+#projects .projects {
+    margin-bottom: 50px;
+
+}
+
+#contact h1 {
+    text-align: center;
+}
+
+.card-text{
+    color:rgb(0, 0, 0);
+}
+
+#contact {
+    text-align: center;
+    background-color:  #061722;;
+    color: rgb(255, 136, 0);
+}
+
+img.footericon{
+    height: 40px;
+    width: 40px;
+  }
+  
+  #contact h1{
+    font-weight: 900 !important;
+  }
+
+  .copyright {
+    max-height: 90px;
+    opacity: 50%;
+}
+
+i.socials {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin: 10px;
+    transition-property: transform ;
+    transition-duration:0.3s ;
+    transition-timing-function: ease ;
+    transition-delay: 0s; 
+    margin-left: 40px auto !important;
+  }
+
+  i.socials:hover{
+    color: rgb(255, 255, 255)!important; 
+    text-shadow: 0 0 10px rgb(255, 136, 0), 0 0 20px rgb(255, 136, 0);
+    transform: translateY(-10px);
+  }
+
+  section p.info {
+    color: #f5f6f7;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+section#hero.one{
+    background-color: #22a0b6 !important;
+}
